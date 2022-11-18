@@ -1,0 +1,39 @@
+body {
+    background-color:beige;
+    font-family:'Franklin Gothic Medium';
+    font-size:medium;
+    color: black;
+    /* text-align: center; */
+}
+
+h1 {
+    text-align: center;
+    font-family:'Franklin Gothic Medium'
+}
+
+h2 {
+    text-align: center;
+    font-family:'Franklin Gothic Medium'
+}
+ul {
+    list-style-type:square;
+}
+
+a{
+    color: rgb(89, 95, 156);
+}
+
+[href="https://github.com/cbcodee/task-list-api"]:hover {
+    text-decoration: underline;
+    color: orange;
+}
+
+[href="https://github.com/cbcodee/swap-meet"]:hover {
+    text-decoration: underline;
+    color: orange;
+}
+
+[href="https://github.com/cbcodee/viewing-party"]:hover {
+    text-decoration: underline;
+    color: orange;
+}
