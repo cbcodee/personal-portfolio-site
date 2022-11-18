@@ -37,8 +37,6 @@ li {
     font-style: bold;
     color: orange;
     text-decoration: none;
-    /* border: 2px solid rgb(109, 100, 157);
-    border-radius: 4px; */
     padding: 2ch;
     padding-left: 2%;
     padding-right: 15%;
@@ -58,13 +56,8 @@ footer {
 .container {
     height: 20px;
     width: 800px;
-  /*  Section 1: Add flex  */
     display: flex;
-    
-  /*  Section 2: controlling flow  */
     flex-direction: row;
-    
-  /*  Section 3: controlling wrap  */
     flex-wrap: wrap;  
     justify-content: center
 }
@@ -74,14 +67,6 @@ footer {
     min-height: 50px;
     border: lightblue 2px solid;
 }
-
-
-/* a:link {
-    font-style: bold;
-    color: orange;
-    text-decoration: none;
-} */
-
 
 [href="#"]:hover {
     text-decoration: underline;
