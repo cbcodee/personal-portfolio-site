@@ -3,7 +3,6 @@ body {
 }
 
 
-
 h1 {
     font-family:'Franklin Gothic Medium';
     font-size:xx-large;
@@ -49,20 +48,16 @@ footer {
 }
 
 
-.container {
+/* .container {
     height: 20px;
     width: 800px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;  
     justify-content: center
-}
+} */
 
-.container>ul {
-    min-width: 50px;
-    min-height: 50px;
-    border: lightblue 2px solid;
-}
+
 
 [href="#"]:hover {
     text-decoration: underline;
