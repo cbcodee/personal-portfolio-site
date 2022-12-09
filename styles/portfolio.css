@@ -8,15 +8,12 @@ body {
 
 h1 {
     text-align: center;
-    font-family:'Franklin Gothic Medium'
+    font-family:'Franklin Gothic Medium';
 }
 
 h2 {
     text-align: center;
     font-family:'Franklin Gothic Medium'
-}
-ul {
-    list-style-type:square;
 }
 
 a{
@@ -36,4 +33,9 @@ a{
 [href="https://github.com/cbcodee/viewing-party"]:hover {
     text-decoration: underline;
     color: orange;
+}
+
+footer {
+    text-align: center;
+
 }

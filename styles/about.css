@@ -20,3 +20,27 @@ img {
     height: 30%;
 
 }
+
+footer {
+    text-align: center;
+}
+
+[href="#"]:hover {
+    text-decoration: underline;
+    color: orange;
+}
+
+[href="#about"]:hover {
+    text-decoration: underline;
+    color: orange;
+}
+
+[href="#contact"]:hover {
+    text-decoration: underline;
+    color:orange;
+}
+
+ul {
+    
+    list-style-type: none;
+}
