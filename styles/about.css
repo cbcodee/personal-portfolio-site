@@ -2,6 +2,16 @@ body {
     background-color:beige;
 }
 
+
+header {
+    font-size: larger;
+    text-align: center;
+    min-width: 200px;
+    min-height: 50px;
+    border: rgb(173, 224, 230) 4px solid;
+    word-spacing: 4em;
+}
+
 main {
     font-family:'Franklin Gothic Medium';
     font-size:medium;
@@ -21,26 +31,41 @@ img {
 
 }
 
-footer {
-    text-align: center;
+main{
+    text-align: left;
 }
 
-[href="#"]:hover {
-    text-decoration: underline;
-    color: orange;
-}
 
-[href="#about"]:hover {
-    text-decoration: underline;
-    color: orange;
-}
 
-[href="#contact"]:hover {
+nav :hover {
     text-decoration: underline;
     color:orange;
+    justify-content: space-evenly;
 }
 
+
 ul {
-    
     list-style-type: none;
+    justify-content: center;
 }
+
+
+/* footer {
+    text-align: center;
+    text-decoration: none; 
+} 
+     */
+
+footer nav{
+    text-align: center;
+    text-decoration: none;
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: row;
+    width: 200px;
+    margin: auto;
+    
+    }
+h4 {
+    text-align: center;
+    }
